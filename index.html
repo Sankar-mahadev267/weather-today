@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Today</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 class="title">Weather Today</h1>
+    <div class="weather">
+        <div class="search">
+            <input type="search" placeholder="Enter city name">
+            <button><img src="search icon.png" alt="search"></button>
+        </div>
+        <div class="correct">
+            <div class="result">
+                <img class="icon" src="clear.png" alt="weather-icon">
+                <h1 class="temp">20°c</h1>
+                <h2 class="city">Bengalore</h2>
+            </div>
+            <div class="wh">
+                <div class="wind">
+                    <img src="wind.png" alt="">
+                    <div>
+                        <h1 class="speed">26 km/h</h1>
+                        <h1>wind</h1>
+                    </div>
+                </div>
+                <div class="humidity">
+                    <img src="humidity.png" alt="">
+                    <div>
+                        <h1 class="percent">26%</h1>
+                        <h1>humidity</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div><h2 class="error">Invalid city name</h2></div>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
